@@ -1,0 +1,130 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Hard</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/eb202bb245.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<style> @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); </style>
+
+</head>
+<body>
+    <div class="banner3">
+        <nav> 
+            <a href=index.html><img src="logo.png" class="logo"></a>            
+            <div class="navbar-contact" id="navBar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>                                           
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>              
+        </nav>   
+        <div class="contactbody">
+            <div class="contactcontainer">
+                <div class="contact-text">Contact LiveHard</div>
+                <form action="contact.html">
+                    <div class="inputdata">
+                        <div class="input-data">
+                            <input type="text" required>
+                            <div class="underlin"></div>
+                            <label>First Name</label>
+                        </div>
+                        <div class="input-data">
+                            <input type="text" required>
+                            <div class="underlin"></div>
+                            <label>Last Name</label>
+                        </div>
+                    </div>
+                    <div class="inputdata">
+                        <div class="input-data">
+                            <input type="text" required>
+                            <div class="underlin"></div>
+                            <label>Email Address</label>
+                        </div>
+                        <div class="input-data">
+                            <input type="text" required>
+                            <div class="underlin"></div>
+                            <label>Phone number</label>
+                        </div>
+                    </div>
+                    <div class="inputdata">
+                        <div class="input-data textarea2">
+                            <textarea cols="30" rows="10" required></textarea>
+                            <div class="underlin"></div>
+                            <label>Write your message here...</label>
+                        </div>
+                    </div>
+                    <div class="inputdata submit-btn">
+                        <div class="input-data">
+                            <div class="inside"></div>
+                            <input type="submit" value="submit">
+                        </div>
+                    </div>         
+                </form>
+            </div>
+        </div>
+        <section class="foot3">
+            <footer>
+                <div class="row">
+                    <div class="col">
+                        <img src="logo.png" class="footerlogo">
+                        <p>Subscribe Live Hard for more videos. Press the bell icon and support my channel!</p>
+                    </div>
+                    <div class="col">
+                        <h3>Work Place <div class="underline"><span></span></div></h3>
+                        <p>136B, Kandy Road,</p>
+                        <p>Matale.Zip code - 21000</p>
+                        <p>Sri Lanka.</p>
+                        <p class="email-id">mmshamran@gmail.com</p>
+                    </div>
+                    <div class="col">
+                        <h3>Links <div class="underline"><span></span></h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="support.html">Support</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Get Updated <div class="underline"><span></span></h3>
+                        <form>
+                            <i class="far fa-envelope"></i>
+                            <input type="email" placeholder="Enter Your Email ID" required>
+                            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                        </form>
+                        <div class="social-icons">
+                            <a href="https://wa.me/message/AVZ6MIJNSTW6P1"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://t.me/mmshamran"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="https://www.snapchat.com/add/mmshamran?share_id=IFAu8DNsMss&locale=en-GB"><i class="fa-brands fa-snapchat"></i></a>
+                            <a href="https://pin.it/6tkhLD9"><i class="fa-brands fa-pinterest"></i></a>
+                            <a href="https://mmshamran@gmail.com"><i class="fa-brands fa-google"></i></a>
+                            
+        
+                        </div>
+                    </div>                         
+                </div>
+                <hr>
+                <p class="copyrights">Live Hard © 2022 - All Rights Reserved <br>Coded by MMShamran</p>  
+            </footer>
+        </section>
+    </div>
+        
+<script>
+        var navBar = document.getElementById("navBar");
+
+        function showMenu(){
+            navBar.style.right = "0";
+        }
+        function hideMenu(){
+            navBar.style.right = "-200px";
+        }
+</script>
+

@@ -1,0 +1,323 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Hard</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/eb202bb245.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <div id="pre-loader"></div>
+    <div class="banner">
+        <nav> 
+            <a href=index.html><img src="logo.png" class="logo"></a>            
+            <div class="navbar" id="navBar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>                                           
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>              
+        </nav>   
+
+        <div class="content">
+            <h1>MOTIVATE YOURSELF</h1>
+            <P><b>"When You Feel Like Quitting, Remember Why You Started"</b><br>Check out <b>Live Hard</b> on Youtube!</P>
+            <div>
+                <a href="https://www.youtube.com/watch?v=nITrGqM9gus&ab_channel=LiveHard"><button type="button"><span class="welcome number"></span> Watch more</button></a>
+                <a href="https://www.youtube.com/channel/UC_FfjLmVO1vxP20ZxmP0Iaw"><button type="button"><span class="welcome number"></span> Subscribe</button></a>
+            </div>
+        </div>
+    </div>
+    
+<script>
+        var navBar = document.getElementById("navBar");
+
+        function showMenu(){
+            navBar.style.right = "0";
+        }
+        function hideMenu(){
+            navBar.style.right = "-200px";
+        }
+</script>
+
+<script>
+        var loader = document.getElementById("pre-loader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+</script> 
+
+    <div class="page1">
+    
+        <div class="heading">
+            <h1 class="ins">inspirational</h1>
+            <div class="back-text">
+                <span class="quotes">Q</span>
+                <span class="quotes">U</span>
+                <span class="quotes">O</span>
+                <span class="quotes">T</span>
+                <span class="quotes">E</span>
+                <span class="quotes">S</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="indicator">
+                <span class="btn active"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </div>            
+            <div class="test">
+                    <div class="slide-row" id="slide1">
+                        <div class="slide-col">
+                            <div class="user-text">                                
+                                <p>It’s ok to have your eggs in one basket, 
+                                    as long as you control what happens to that basket.</p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                    <h3>~ Elon Musk</h3>
+                                    
+                            </div>
+                            <div class="user-img">
+                                <img src="elon.jpeg">
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="slide-row" id="slide2">
+                        <div class="slide-col">
+                            <div class="user-text">
+                                <p>If you don’t give up, you still have a chance. 
+                                    Giving up is the greatest failure.</p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                    <h3>~ Jack Ma</h3>
+                            </div>
+                            <div class="user-img">
+                                <img src="jackma.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-row" id="slide3">
+                        <div class="slide-col">
+                            <div class="user-text">
+                                <p>You will never fail until you stop Trying.</p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                    <h3>~ Albert Einstein</h3>
+                            </div>
+                            <div class="user-img">
+                                <img src="albert.jpeg">
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="slide-row" id="slide4">
+                        <div class="slide-col">
+                            <div class="user-text">
+                                <p>Education is the most powerful weapon which you can use 
+                                    to change the world.</p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                    <h3>~ Nelson Mandela</h3>
+                            </div>
+                            <div class="user-img">
+                                <img src="nelson.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-row" id="slide5">
+                        <div class="slide-col">
+                            <div class="user-text">
+                                <p>Kill them with your success and 
+                                    bury them with your smile.</p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                    <h3>~ Joseph Vijay</h3>
+                            </div>
+                            <div class="user-img">
+                                <img src="vijay.jpeg">
+                            </div>
+                        </div>
+                    </div>  
+            </div>               
+        </div>
+    </div>
+
+    <div class="page2">
+    <div class="slide-left">
+        <h1 class="whatis">What is Live Hard?</h1>
+        <p class="lhis">Live Hard is a Youtube channel made to provide and inspire people.<br>We create videos to enhance your potential and improve your thinking. <br>Here are some of our videos!</p>
+    </div>
+  <div class="page2-1">
+    <div class="row1">
+        <div class="imagelinks">
+            <img src="ronaldo.jpg">
+            <div class="layer">
+                <a href="https://youtu.be/VGyGaICLJSM"><h3>"I'M LIVING A DREAM I NEVER WANT TO WAKE UP FROM"</h3></a>
+            </div>
+        </div> 
+        <div class="imagelinks">
+            <img src="rock.jpg">
+            <div class="layer">
+                <a href="https://youtu.be/LWOV3-K2daE"><h3>"FAILURE'S NOT AN OPTION IT'S JUST A STEP"</h3></a>
+            </div>
+        </div> 
+        <div class="imagelinks">
+            <img src="khabib.jpg">
+            <div class="layer">
+                <a href="https://youtu.be/MhNFp7NnW7g"><h3>"EAGLES DON'T STAY IN THE CAGE"</h3></a>
+            </div>
+        </div>    
+    </div>
+  </div>
+
+    </div>
+
+
+<section class="foot">
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="logo.png" class="footerlogo">
+                <p>Subscribe Live Hard for more videos. Press the bell icon and support my channel!</p>
+            </div>
+            <div class="col">
+                <h3>Work Place <div class="underline"><span></span></div></h3>
+                <p>136B, Kandy Road,</p>
+                <p>Matale.Zip code - 21000</p>
+                <p>Sri Lanka.</p>
+                <p class="email-id">mmshamran@gmail.com</p>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Get Updated <div class="underline"><span></span></h3>
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter Your Email ID" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://wa.me/message/AVZ6MIJNSTW6P1"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://t.me/mmshamran"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.snapchat.com/add/mmshamran?share_id=IFAu8DNsMss&locale=en-GB"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://pin.it/6tkhLD9"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://mmshamran@gmail.com"><i class="fa-brands fa-google"></i></a>
+                    
+
+                </div>
+            </div>                         
+        </div>
+        <hr>
+        <p class="copyrights">Live Hard © 2022 - All Rights Reserved <br>Coded by MMShamran</p>  
+    </footer>
+</section>
+
+
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '45px',
+        duration: 2000,
+        delay:100
+    });
+    ScrollReveal().reveal('.whatis', { delay: 200, origin: 'left' });
+    ScrollReveal().reveal('.lhis', { delay: 200, origin: 'bottom' });
+    ScrollReveal().reveal('.imagelinks', { delay: 200, origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('.ins', { delay: 200, origin: 'left' });
+</script>
+
+<script>
+    var btn = document.getElementsByClassName("btn")
+    var slide1 = document.getElementById("slide1")
+    var slide2 = document.getElementById("slide2")
+    var slide3 = document.getElementById("slide3")
+    var slide4 = document.getElementById("slide4")
+    var slide5 = document.getElementById("slide5")
+
+
+    btn[0].onclick = function(){
+        slide1.style.transform = "translateX(0px)"; 
+        slide2.style.transform = "translateX(0px)"; 
+        slide3.style.transform = "translateX(0px)"; 
+        slide4.style.transform = "translateX(0px)"; 
+        slide5.style.transform = "translateX(0px)"; 
+        for(i=0;i<5;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active"); 
+    }
+
+    btn[1].onclick = function(){ 
+        slide1.style.transform = "translateX(-800px)";
+        slide2.style.transform = "translateX(-800px)"; 
+        slide3.style.transform = "translateX(-800px)"; 
+        slide4.style.transform = "translateX(-800px)"; 
+        slide5.style.transform = "translateX(-800px)"; 
+        for(i=0;i<5;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active"); 
+    }
+    
+    btn[2].onclick = function(){
+        slide1.style.transform = "translateX(-1600px)";
+        slide2.style.transform = "translateX(-1600px)";
+        slide3.style.transform = "translateX(-1600px)";
+        slide4.style.transform = "translateX(-1600px)";
+        slide5.style.transform = "translateX(-1600px)"; 
+        for(i=0;i<5;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active"); 
+    }
+
+    btn[3].onclick = function(){
+        slide1.style.transform = "translateX(-2400px)";
+        slide2.style.transform = "translateX(-2400px)";
+        slide3.style.transform = "translateX(-2400px)";
+        slide4.style.transform = "translateX(-2400px)";
+        slide5.style.transform = "translateX(-2400px)";
+        for(i=0;i<5;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active"); 
+    } 
+
+    btn[4].onclick = function(){ 
+        slide1.style.transform = "translateX(-3200px)";
+        slide2.style.transform = "translateX(-3200px)";
+        slide3.style.transform = "translateX(-3200px)";
+        slide4.style.transform = "translateX(-3200px)";
+        slide5.style.transform = "translateX(-3200px)";
+        for(i=0;i<5;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");          
+    }
+    
+    
+</script>
+
+<script>
+    let spanTexts = document.getElementsByClassName("quotes")
+    window.onscroll = function(){
+        for(spanText of spanTexts){
+            spanText.classList.add("active1")
+        }
+    }
+    window.onswipe = function(){
+        for(spanText of spanTexts){
+            spanText.classList.add("active1")
+        }
+    }
+</script>

@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Hard</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/eb202bb245.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<style>@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');</style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); </style>
+
+</head>
+<body>
+    <div class="banner4">
+        <nav> 
+            <a href=index.html><img src="logo.png" class="logo"></a>            
+            <div class="navbar-support" id="navBar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>                                           
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>              
+        </nav> 
+        <div class="supportbody">
+        <h1 class="adminprofile">Admin Profile Card</h1>  
+        <p class="clickon">Click on the image for details</p>
+        </div>
+        <div class="profile hide-profile" id="userBox">
+            <img src="user.jpeg" onclick="openinfo()">
+            <div class="profileinfo">
+                <h1>Shamran Makie</h1>
+                <p>Studying at <a href="https://www.facebook.com/St.ThomasMatale/"><span>St.Thomas college</span></a></p>
+                <P>From Matale, Sri Lanka</P>
+                <div class="contactme">
+                    <a href="https://wa.me/message/AVZ6MIJNSTW6P1">Contact me</a>
+                </div>
+            </div>
+            <div class="close-profile" onclick="closeinfo()"></div>
+        </div> 
+        <div class="main">
+
+            <div class="support-icons wa">
+                <a href="https://wa.me/message/AVZ6MIJNSTW6P1"><i class="fa-brands fa-whatsapp"></i></a>
+                <span>Whatsapp</span>
+            </div>
+        
+            <div class="support-icons tele">
+                <a href="https://t.me/mmshamran"><i class="fa-brands fa-telegram"></i></a>
+                <span>Telegram</span>
+            </div>
+        
+            <div class="support-icons snap">
+                <a href="https://www.snapchat.com/add/mmshamran?share_id=IFAu8DNsMss&locale=en-GB"><i class="fa-brands fa-snapchat"></i></a>
+                <span>Snapchat</span>
+            </div>
+        
+            <div class="support-icons twt">
+                <a href="https://twitter.com/mmshamran"><i class="fa-brands fa-twitter"></i></a>
+                <span>Twitter</span>
+            </div>
+        
+            <div class="support-icons gt">
+                <a href="https://github.com/mmshamran"><i class="fa-brands fa-github"></i></a>
+                <span>Github</span>
+            </div>
+        
+            <div class="support-icons yout">
+                <a href="https://www.youtube.com/@livehard4508"><i class="fa-brands fa-youtube"></i></a>
+                <span>Youtube</span>
+            </div>
+        
+            <div class="support-icons gml">
+                <a href="https://mmshamran@gmail.com"><i class="fa-brands fa-google"></i></a>
+                <span>Gmail</span>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <section class="foot2">
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="logo.png" class="footerlogo">
+                    <p>Subscribe Live Hard for more videos. Press the bell icon and support my channel!</p>
+                </div>
+                <div class="col">
+                    <h3>Work Place <div class="underline"><span></span></div></h3>
+                    <p>136B, Kandy Road,</p>
+                    <p>Matale.Zip code - 21000</p>
+                    <p>Sri Lanka.</p>
+                    <p class="email-id">mmshamran@gmail.com</p>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Get Updated <div class="underline"><span></span></h3>
+                    <form>
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email ID" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="https://wa.me/message/AVZ6MIJNSTW6P1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://t.me/mmshamran"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.snapchat.com/add/mmshamran?share_id=IFAu8DNsMss&locale=en-GB"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://pin.it/6tkhLD9"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://mmshamran@gmail.com"><i class="fa-brands fa-google"></i></a>
+                        
+    
+                    </div>
+                </div>                         
+            </div>
+            <hr>
+            <p class="copyrights">Live Hard © 2022 - All Rights Reserved <br>Coded by MMShamran</p>  
+        </footer>
+    </section>     
+    
+<script>
+    let userBox = document.getElementById("userBox")
+
+    function openinfo(){
+        userBox.classList.remove("hide-profile");
+    }
+
+    function closeinfo(){
+        userBox.classList.add("hide-profile");
+    }
+</script>    
+
+
+<script>
+        var navBar = document.getElementById("navBar");
+
+        function showMenu(){
+            navBar.style.right = "0";
+        }
+        function hideMenu(){
+            navBar.style.right = "-200px";
+        }
+</script>
+
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '45px',
+        duration: 2500,
+        delay:100
+    });
+    ScrollReveal().reveal('.adminprofile', { delay: 100, origin: 'top' });
+    ScrollReveal().reveal('.clickon', { delay: 100, origin: 'left' });
+    ScrollReveal().reveal('.profile', { delay: 100, origin: 'bottom' });
+</script> 
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '45px',
+        duration: 2500,
+        delay:10
+    });
+    ScrollReveal().reveal('.support-icons', { delay: 10, origin: 'right', interval: 100 });
+</script>
+
